@@ -1,2 +1,10 @@
 # CS230
 SNHU CS-230 Design Document
+
+The Gaming Room is a fictional client that wanted to expand a game they currently have, "Draw It or Lose It" to make it available across any systems as a web-based application. The game involves two teams that take turns guessing what an image is as it slowly loads over the course of thirty seconds. The game needed features such as role-based users, unique games with unique identifiers and saves, team names, etc. Additionally, the application is meant to be a distributed application that would utilize a secure communication between platforms as well. 
+
+Something I thought I did particularly well with during the development of this documentation is that I was very thorough in laying out the different options, advantages, and disadvantages between the different setups the application could utilize. For example, would the application work better with a server or cloud-based server? What sort of memory and storage management should it use? 
+
+The structure provided really helped with taking all elements into consideration. The documents lays out key elements that are to be considered and helped lay down the foundation of how to expand on everything and important factors to take into consideration as well, including all of the options to think of. I would likely revisit the initial design constraints portion of the document. I would like to highlight other constraints that I hadn't thought of originally, such as memory management needs, storage management requirements, and regulatory needs to be mindful of.
+
+  I put effort into considering the user's needs for the software when giving a recommendation. For example, when it comes to memory management and storage needs, the game will need to load one of 200 stored images of a set size. This means there are memory management techniques that will be necessary to ensure there is no latency, especially considering this is to be a web-based application as well. Designing with the user in mind ensures that the application is user-friendly, efficient, and aligned with their expectations, leading to better adoption and satisfaction.
